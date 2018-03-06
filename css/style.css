@@ -606,7 +606,7 @@ i.fa.fa-angle-down {
 	display: -ms-flexbox;
 	display: -webkit-flex;
 }
-.stats1, .stats2 {
+.stats1, .stats2, .stats3 , .stats4 , .stats5  {
     display: flex;
 	display: -webkit-box;
 	display: -moz-box;
@@ -875,6 +875,13 @@ h3.heading-agileinfo {
 /*--//clients--*/
 
 /*--footer--*/
+.footer_contact{
+    padding: 10px;
+    margin: 10px;
+}
+label.footer_contact{
+    color: white;
+}
 ul.agile_footer_grid_list li{
     color: #000;
     line-height: 1.8em;
@@ -888,7 +895,7 @@ ul.agile_footer_grid_list li{
 }
 .contact h3 {
     font-size: 50px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 50px;
     color: #000;
 }
@@ -941,14 +948,14 @@ ul.agile_footer_grid_list li span.fa{
     color: #5a5353;
 }
 .information ul.tag2 {
-    display: block;
+    display: inline;
 }
 .information ul.tag2 {
     padding: 0;
     margin: 0 0 14px;
 }
 .information ul.tag2 li {
-    display: inline-block;
+    display: inline;
 }
 .information ul.tag2 li a {
     font-size: 13px;
@@ -1017,6 +1024,7 @@ ul.agile_footer_grid_list li span.fa{
 }
 
 .w3layouts_footer_grid1 h3 {
+    padding: 10px;
     font-size: 19px;
 }
 .social_agileinfo li a i {
@@ -1871,6 +1879,7 @@ i.fa.fa-angle-down {
     width: 50px;
     height: 50px;
     font-size: 30px;
+    display: block
 }
 .w3-stats h4 {
     font-size: 14px;

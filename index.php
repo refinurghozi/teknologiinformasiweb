@@ -33,7 +33,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button> 
-					<h1><a href="index.html"><img src="images/logo.png" class="img-responsive" alt="TI"></a></h1> 
+					<h1><a href="index.php"><img src="images/logo.png" class="img-responsive" alt="TI"></a></h1> 
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -295,14 +295,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Specialist</p>
 				</div>
 			</div>
-			<div class="col-md-4 stats1">
+			<div class="col-md-4 stats2">
 				<div class="w3-stats">
 					<img src="images/icon2.png" alt="" class="" />
 					<h4>IoT</h4>
 					<p>Specialist</p>
 				</div>
 			</div>
-			<div class="col-md-4 stats1">
+			<div class="col-md-4 stats3">
 				<div class="w3-stats">
 					<img src="images/icon3.png" alt="" class="" />
 					<h4>Application Security</h4>
@@ -311,7 +311,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 		</div>
 		<div class="container">
-			<div class="col-md-1 stats1">
+			<div class="col-md-1 stats4">
 				
 			</div>
 			<div class="col-md-5 stats1">
@@ -321,7 +321,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					<p>Developer</p>
 				</div>
 			</div>
-			<div class="col-md-5 stats1">
+			<div class="col-md-5 stats5">
 				<div class="w3-stats">
 					<img src="images/icon5.png" alt="" class="" />
 					<h4>System Integration</h4>
@@ -486,82 +486,96 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="contactfull">
 	<div class="contact" id="contact">
 
-		<div class="container">
-		<h3>CONTACT US</h3>
-			<div class="footer-grids">
-
-				<div class="col-md-3 col-sm-6 my-info">
-					<h4>About </h4>
-					<p>Teknologi Informasi adalah Departemen yang didirikan pada tahun 2018 di Fakultas Teknologi Informasi dan Komunikasi...</p>
-					<a href="#">Read more</a>
-					<div class="clearfix"></div>
-				</div>
-				<div class="col-md-3 col-sm-6 information">
-					<h4>QUICK LINKS</h4>
-					<div class="unorder">
-					<p><a href="#banner" class=" scroll" ><span class="fa fa-angle-right" aria-hidden="true"></span>Home</a></p>
-					<p><a class=" scroll" href="#about"><span class="fa fa-angle-right" aria-hidden="true"></span>About</a></p>
-					<p><a class=" scroll" href="#news"><span class="fa fa-angle-right" aria-hidden="true"></span>Visi Misi</a></p>
-					<p><a class=" scroll" href="#agile-stats"><span class="fa fa-angle-right" aria-hidden="true"></span>Prospek Kerja</a></p>
-					<p><a class=" scroll" href="#testimonials"><span class="fa fa-angle-right" aria-hidden="true"></span>Testimonials</a></p>
-					<p><a class=" scroll" href="#gallery"><span class="fa fa-angle-right" aria-hidden="true"></span>Fasilitas</a></p>
-					<p><a class=" scroll" href="#footer"><span class="fa fa-angle-right" aria-hidden="true"></span>Contact</a></p>
-					</div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 menu">
-					<h4>Categories</h4>
-					<p><a class=" scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>Web Development</a></p>
-					<p><a class=" scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>Cloud Computing</a></p>
-					<p><a class="scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>UI Design</a></p>
-					<p><a class=" scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>Network Security</a></p>
-					<p><a class=" scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>Storage Systems</a></p>
-					<p><a class=" scroll" href="#menu"><span class="fa fa-angle-right" aria-hidden="true"></span>Integration Software</a></p>
-				</div>
-
-
-				<div class="col-md-3 col-sm-6 iteams">
-					<h4>Contact Info</h4>
-					<ul class="agile_footer_grid_list">
-						<li>Jalan Raya ITS, Keputih, Sukolilo, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111</li>
-							
-						<li><span class="fa fa-phone"></span> +031 5581922</li>
-						<li><span class="fa fa-envelope-o"></span><a href="mailto:info@example.com">teknologi.informasi@its.ac.id</a></li>
-
-					</ul>
-				</div>
-
-
-				<div class="clearfix"></div>
-
-			</div>
-			</div>
-			</div>
+		
 
 <!-- /Contact-->
 <!-- footer -->
 	<div class="footer" id="footer">
 		<div class="f-bg-w3l">
 			<div class="container">
-				<div class="col-md-5 w3layouts_footer_grid">
-				<div class="col-md-5 w3layouts_footer_grid1">
-					
-				</div>
-				</div>
-				<div class="col-md-7 w3layouts_footer_grid">
-				<div class="col-md-4 w3layouts_footer_grid1">
-				
-				</div>
-				<div class="col-md-8 w3layouts_footer_grid2">
-					
-					
+				<div class="col-md-12 w3layouts_footer_grid">
+					<div class="col-md-7 w3layouts_footer_grid1">
+                        <div class="footer-grids">
+							<div class="row">
+                                <div class="col-md-7 col-sm-6 my-info">
+								<h3>ABOUT </h3>
+								<p>Teknologi Informasi adalah Departemen yang didirikan pada tahun 2018 di Fakultas Teknologi Informasi dan Komunikasi...</p>
+								<p><a href="#">Read more</a></p>
+								<div class="clearfix"></div>
+                                </div>
+                                <div class="col-md-5 col-sm-6 information">
+								<h3>QUICK LINKS</h3>
+								<div class="tag2">
+                                    <ul>
+                                        <li>
+                                        <p><a href="#banner" class=" scroll" >Home</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#about">About</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#news">Visi Misi</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#agile-stats">Prospek Kerja</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#testimonials">Testimonials</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#gallery">Fasilitas</a></p>
+                                        </li>
+                                        <li>
+                                        <p><a class=" scroll" href="#footer">Contact</a></p>
+                                        </li>
+                                        
+                                    </ul>
+								</div>
+							</div>
+                            </div>
+							
+							<div class="col-md-7 iteams">
+								<h3>CONTACT INFO</h3>
+									<p>Jalan Raya ITS, Keputih, Sukolilo, Keputih, Sukolilo, Kota SBY, Jawa Timur 60111</p>
+									<p><span class="fa fa-phone" style="color:white"></span> +031 5581922</p>
+									<p><span class="fa fa-envelope-o" style="color:white"></span><a href="mailto:info@example.com">teknologi.informasi@its.ac.id</a></p>
+							</div>
+						</div>
+                    </div>
+					<div class="col-md-5 w3layouts_footer_grid1">
+                        <div class="footer-grids">
+                            <div class="row">
+                                <h3>Contact Us</h3>
+                                <form action="send_mail.php" method="post" style="border:0px">
+                                    <div>
+                                        <label for="name"><h5>Name</h5></label>
+                                        <br>
+                                        <input type="text" name="name" style="color:black">
+                                    </div>
+                                    <div>
+                                        <label for="email"><h5>Email</h5></label>
+                                        <br>
+                                        <input type="text" name="email" style="color:black">
+                                    </div>
+                                    <div>
+                                        <label for="message"><h5>Message</h5></label>
+                                        <br>
+                                        <textarea name="message" id="" cols="30" rows="10" style="color:black"></textarea>
+                                    </div>
+                                    <div><input type="submit" value="Send email" style="color:black"></div>
+                                </form>
+                            </div>
+						
+						<div class="clearfix"></div>
+					</div>
+					</div>
 				</div>
 				</div>
 				<div class="clearfix"> </div>
 			</div>
 		</div>
 	</div>
-	</div>
+</div>
 	<!-- //footer -->
 <div class="copyright">
  <p>&copy; Sowing 2018. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="blank">W3layouts</a></p>
