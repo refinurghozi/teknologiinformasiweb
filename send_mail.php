@@ -2,7 +2,9 @@
 						$name=$_POST['name'];
 						$email=$_POST['email'];
 						$message=$_POST['message'];
-						$to=r3f1nurghozi@gmail.com;
+						
+
+                        $to="r3f1nurghozi@gmail.com";
 
 						$message="From:$name <br />".$message;
 
@@ -12,9 +14,9 @@
 						// More headers
 						$headers .= 'From: '.$email.' <noreply@yourwebsite.com>'."\r\n" . 'Reply-To: '.$name.' <'.$email.'>'."\r\n";
 						$headers .= 'Cc: admin@yourdomain.com' . "\r\n"; //untuk cc lebih dari satu tinggal kasih koma
-						@mail($to,$message,$headers);
+						@mail($to,"Feedback",$message,$headers);
 						if(@mail)
 						{	
-                            header("Refresh:0");
+                            header("Refresh:0; url=index.php");
 						}
 						?>
