@@ -587,44 +587,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	<div class="container">
         <div class="row">
             <h3>KOMENTAR</h3><br>
-            <form action="add.php" method="post" name="form1">
-                <table width="25%" border="0">
-                    <tr> 
-                        <td>Name</td>
-                        <td><input type="text" name="name"></td>
-                    </tr>
-                    <tr> 
-                        <td>Subject</td>
-                        <td><input type="text" name="subject"></td>
-                    </tr>
-                    <tr> 
-                        <td>Komentar</td>
-                        <td><textarea name="komentar" cols="18" rows="5" style="color:black"></textarea></td>
-                    </tr>
-                    <tr> 
-                        <td></td>
-                        <td><input type="submit" name="Submit" value="Add"></td>
-                    </tr>
-                </table>
-            </form>
-        </div>
-        <div class="row">
-            <br>
-            <table width='80%' border=1>
-
-            <tr>
-                <th>Name</th> <th>komentar</th> <th>subject</th> <th>Update</th>
-            </tr>
             
-            </table>
-		</div>
-		<div class="w3agile_gallery_grids">
-			
-			
-		   <div class="clearfix"> </div>
-		</div>
-	</div>
-	</div>
+            <?php echo form_open(base_url('index.php/Home/create')); ?>
+            <h4>Nama</h4>
+            <input type="text" name="name" placeholder="name"><br><br>
+            <h4>Subject</h4>
+            <input type="text" name="subject" placeholder="subject"><br><br>
+            <h4>Komentar</h4>
+            <input type="text" name="komentar" placeholder="komentar"><br><br>
+            
+            <input type="submit" name="submit" value="Submit">
+            <?php echo form_close(); ?><br>
+            
+            <a href="<?php echo base_url() .'index.php/read' ?>"><button>Read</button></a>
+            
+            
+            
+            
+            
     
     
     
