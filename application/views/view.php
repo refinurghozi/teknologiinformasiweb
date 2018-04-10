@@ -1,7 +1,7 @@
 <html>
     <head></head>
     <body>
-        <form method="post" action="<?php echo base_url().'index.php/Home/delete_barang'?>">
+        <form method="post" action="<?php echo base_url().'Home/delete_barang'?>">
         <table width="25%" border="5">
         <thead>
             <tr>
@@ -27,6 +27,12 @@
         <input type="submit" value="Delete">
         </form>
     <a href="<?= base_url() ?>index.php"><button>Back</button></a>
+    <p align="center"><a href="<?php echo base_url('Home/download'); ?>">Unduh Laporan</a></p>
+        
+     <a href="<?= base_url().'chart' ?>"><button>statistik</button></a>   
+        
+        
+   
     </body>
 </html>
 

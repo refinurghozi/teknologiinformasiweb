@@ -16,4 +16,5 @@
         $this->db->delete('users');
         }
     }
+    
 ?>

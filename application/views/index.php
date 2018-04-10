@@ -15,10 +15,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <meta charset="utf-8">
 <meta name="keywords" content="Sowing a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-<link href="<?php echo base_url();?>/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="<?php echo base_url();?>/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-<link href="<?php echo base_url();?>/assets/css/smoothbox.css" rel="stylesheet" type="text/css" media="all"/>
-<link href="<?php echo base_url();?>/assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="assets/css/smoothbox.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
 <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 <link href="//fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -36,7 +36,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button> 
-					<h1><a href="index.php"><img src="<?php echo base_url();?>/assets/images/logo.png" class="img-responsive" alt="TI"></a></h1> 
+					<h1><a href="index.php"><img src="assets/images/logo.png" class="img-responsive" alt="TI"></a></h1> 
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -190,7 +190,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="col-md-6 w3_abl">
 <h4>Problem Solving</h4>
 <div class="col-md-6 w3l_abl">
-<img src="<?php echo base_url();?>/assets/images/abt1.jpg" class="img-responsive">
+<img src="assets/images/abt1.jpg" class="img-responsive">
 </div>
 <div class="col-md=6 w3l_abtr">
 <p>Memiliki kemampuan untuk menghasilkan SDM yang ahli dalam bidang integrasi sistem sebagai solusi untuk mendukung penanganan aplikasi-aplikasi di instansi pemerintahan (E-Gov)
@@ -202,7 +202,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <div class="col-md-6 w3_abl">
 <h4>Smart City</h4>
 <div class="col-md-6 w3l_abl">
-<img src="<?php echo base_url();?>/assets/images/abt2.jpg" class="img-responsive">
+<img src="assets/images/abt2.jpg" class="img-responsive">
 </div>
 <div class="col-md=6 w3l_abtr">
 <p>Memfasilitasi otomatisasi proses bisnis di organisasi untuk menghadapi perkembangan teknologi internet yang pesat dalam rangka mendukung pengembangan Teknologi Smart City</p>
@@ -229,7 +229,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          <h4 class="modal-title">Modal Header</h4>
 		        </div>
 		        <div class="modal-body">
-				<img src="<?php echo base_url();?>/assets/images/abtrm3.jpg"  class="img-responsive" alt="tfg">
+				<img src="assets/images/abtrm3.jpg"  class="img-responsive" alt="tfg">
 		          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
 		        </div>
 		        <div class="modal-footer">
@@ -242,12 +242,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		</div>
 
 		<div class="col-md-7 w3l_nr">
-		<img src="<?php echo base_url();?>/assets/images/n1.jpg" class="img-responsive" alt="">
+		<img src="assets/images/n1.jpg" class="img-responsive" alt="">
 		</div>
 		<div class="clearfix"></div>
 
 		<div class="col-md-7 w3l_nr1">
-		<img src="<?php echo base_url();?>/assets/images/n2.jpg" class="img-responsive" alt="">
+		<img src="assets/images/n2.jpg" class="img-responsive" alt="">
 		</div>
 
 		<div class="col-md-5 w3l_nl1">
@@ -264,7 +264,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		          <h4 class="modal-title">Modal Header</h4>
 		        </div>
 		        <div class="modal-body">
-				<img src="<?php echo base_url();?>/assets/images/abtrm1.jpg"  class="img-responsive" alt="tg">
+				<img src="assets/images/abtrm1.jpg"  class="img-responsive" alt="tg">
 		          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book..</p>
 		        </div>
 		        <div class="modal-footer">
@@ -293,21 +293,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<div class="col-md-4 stats1">
 				<div class="w3-stats">
 					<span class="icon" aria-hidden="true"></span>
-					<img src="<?php echo base_url();?>/assets/images/icon1.png" alt="" class="" />
+					<img src="assets/images/icon1.png" alt="" class="" />
 					<h4>Cyber Security</h4>
 					<p>Specialist</p>
 				</div>
 			</div>
 			<div class="col-md-4 stats2">
 				<div class="w3-stats">
-					<img src="<?php echo base_url();?>/assets/images/icon2.png" alt="" class="" />
+					<img src="assets/images/icon2.png" alt="" class="" />
 					<h4>IoT</h4>
 					<p>Specialist</p>
 				</div>
 			</div>
 			<div class="col-md-4 stats3">
 				<div class="w3-stats">
-					<img src="<?php echo base_url();?>/assets/images/icon3.png" alt="" class="" />
+					<img src="assets/images/icon3.png" alt="" class="" />
 					<h4>Application Security</h4>
 					<p>Analyst</p>
 				</div>
@@ -319,14 +319,14 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="col-md-5 stats1">
 				<div class="w3-stats">
-					<img src="<?php echo base_url();?>/assets/images/icon4.png" alt="" class="" />
+					<img src="assets/images/icon4.png" alt="" class="" />
 					<h4>Cloud Service</h4>
 					<p>Developer</p>
 				</div>
 			</div>
 			<div class="col-md-5 stats5">
 				<div class="w3-stats">
-					<img src="<?php echo base_url();?>/assets/images/icon5.png" alt="" class="" />
+					<img src="assets/images/icon5.png" alt="" class="" />
 					<h4>System Integration</h4>
 					<p>Specialist</p>
 				</div>
@@ -347,7 +347,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3agile_gallery_image">
 					<a class="sb" href="images/g11.jpg" title="Agriculture">
 						<figure>
-							<img src="<?php echo base_url();?>/assets/images/g11.jpg" alt="" class="img-responsive" />
+							<img src="assets/images/g11.jpg" alt="" class="img-responsive" />
 							<figcaption>
 								<h4>Laboratorium</h4>
 								<p>Terdapat 2 laboratorium komputer (Lab Keamanan Siber dan Lab Teknologi Smart City).
@@ -361,7 +361,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3agile_gallery_image">
 					<a class="sb" title="Agriculture" href="images/g12.jpg">
 						<figure>
-							<img src="<?php echo base_url();?>/assets/images/g12.jpg" alt="" class="img-responsive" />
+							<img src="assets/images/g12.jpg" alt="" class="img-responsive" />
 							<figcaption>
 								<h4>Ruang Baca</h4>
 								<p>Memiliki berbagai macam koleksi mulai dari fiksi hingga materi perkuliahan, dari bahan cetak hingga koleksi digital.
@@ -375,7 +375,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<div class="w3agile_gallery_image">
 					<a class="sb" title="Agriculture" href="images/g13.jpg">
 						<figure>
-							<img src="<?php echo base_url();?>/assets/images/g13.jpg" alt="" class="img-responsive" />
+							<img src="assets/images/g13.jpg" alt="" class="img-responsive" />
 							<figcaption>
 								<h4>Ruang Kelas</h4>
 								<p>Ruang kelas dilengkapi dengan pendingin ruangan dan LCD serta akses internet gratis yang mendukung kegiatan akademis.
@@ -407,7 +407,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4 team-left">
-							<img src="<?php echo base_url();?>/assets/images/test1.jpg" class="img-responsive"  alt=" " />
+							<img src="assets/images/test1.jpg" class="img-responsive"  alt=" " />
 						</div>
 
 						<div class="clearfix"></div>
@@ -416,7 +416,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>
 					<div class="laptop">
 					<div class="col-md-4 col-sm-4 team-left">
-							<img src="<?php echo base_url();?>/assets/images/test2.png" class="img-responsive"  alt=" " />
+							<img src="assets/images/test2.png" class="img-responsive"  alt=" " />
 						</div>
 						<div class="col-md-8 col-sm-8 team-right">
 							<p>"Suatu hari nanti komputasi akan menjadi infrastruktur publik seperti listrik dan telepon"</p>
@@ -431,7 +431,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>
 					<div class="laptop">
 					<div class="col-md-4 col-sm-4 team-left">
-							<img src="<?php echo base_url();?>/assets/images/test3.jpg" class="img-responsive"  alt=" " />
+							<img src="assets/images/test3.jpg" class="img-responsive"  alt=" " />
 						</div>
 						<div class="col-md-8 col-sm-8 team-right">
 							<p>"Smart City menciptakan perubahan sistem lebih efektif dan efisien dalam lembaga pemerintahan"</p>
@@ -446,7 +446,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>
 					<div class="laptop">
 					<div class="col-md-4 col-sm-4 team-left">
-							<img src="<?php echo base_url();?>/assets/images/test4.jpg" class="img-responsive"  alt=" " />
+							<img src="assets/images/test4.jpg" class="img-responsive"  alt=" " />
 						</div>
 						<div class="col-md-8 col-sm-8 team-right">
 							<p>"Jika kita tidak memecahkan masalah keamanan, maka orang-orang akan ragu"</p>
@@ -461,7 +461,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				<li>
 					<div class="laptop">
 					<div class="col-md-4 col-sm-4 team-left">
-							<img src="<?php echo base_url();?>/assets/images/test5.jpg" class="img-responsive"  alt=" " />
+							<img src="assets/images/test5.jpg" class="img-responsive"  alt=" " />
 						</div>
 						<div class="col-md-8 col-sm-8 team-right">
 							<p>"Sistem yang terintegrasi dalam suatu perusahaan dapat meningkatkan penghematan atau efisiensi"</p>
@@ -588,7 +588,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         <div class="row">
             <h3>KOMENTAR</h3><br>
             
-            <?php echo form_open(base_url('index.php/Home/create')); ?>
+            <form action="<?php echo base_url(). 'Home/create'; ?>" method="post"  class="contact_form">
+            
             <h4>Nama</h4>
             <input type="text" name="name" placeholder="name"><br><br>
             <h4>Subject</h4>
@@ -597,29 +598,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <input type="text" name="komentar" placeholder="komentar"><br><br>
             
             <input type="submit" name="submit" value="Submit">
-            <?php echo form_close(); ?><br>
+           
+            </form>
             
-            <a href="<?php echo base_url() .'index.php/read' ?>"><button>Read</button></a>
-            
-            
-            
+            <a href="<?php echo base_url() .'Home/readData' ?>"><button>Read</button></a>
             
             
-    
-    
-    
-    
+            
 <div class="copyright">
  <p>&copy; Sowing 2018. All Rights Reserved | Design by <a href="https://w3layouts.com/" target="blank">W3layouts</a></p>
  </div>
-<script src="<?php echo base_url();?>/assets/js/jquery.min.js"></script>
-<script src="<?php echo base_url();?>/assets/js/bootstrap.min.js"></script>
-<script  src="<?php echo base_url();?>/assets/js/move-top.js"></script>
-<script  src="<?php echo base_url();?>/assets/js/easing.js"></script>
-<script  src="<?php echo base_url();?>/assets/js/SmoothScroll.min.js"></script>	
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script  src="assets/js/move-top.js"></script>
+<script  src="assets/js/easing.js"></script>
+<script  src="assets/js/SmoothScroll.min.js"></script>	
  
 <!-- Slider script-->
-<script src="<?php echo base_url();?>/assets/js/responsiveslides.min.js"></script>
+<script src="assets/js/responsiveslides.min.js"></script>
 							<script>
 								// You can also use "$(window).load(function() {"
 								$(function () {
@@ -662,10 +658,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			  </script>
 <!-- /Slider script-->
 <!-- Number Scroler-->
-	<script src="<?php echo base_url();?>/assets/js/numscroller-1.0.js"></script>
+	<script src="assets/js/numscroller-1.0.js"></script>
 <!-- /Number Scroler-->
 <!--flexiselDemo1 -->
-<script type="text/javascript" src="<?php echo base_url();?>/assets/js/jquery.flexisel.js"></script>
+<script type="text/javascript" src="assets/js/jquery.flexisel.js"></script>
  <script type="text/javascript">
 							$(window).load(function() {
 								$("#flexiselDemo1").flexisel({
@@ -695,7 +691,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</script>
 			
 <!--//flexiselDemo1 -->
-<script type="text/javascript" src="<?php echo base_url();?>/assets/js/smoothbox.jquery2.js"></script>
+<script type="text/javascript" src="assets/js/smoothbox.jquery2.js"></script>
 <script type="text/javascript">
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-36251023-1']);

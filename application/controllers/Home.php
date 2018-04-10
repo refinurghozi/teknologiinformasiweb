@@ -10,7 +10,7 @@ class Home extends CI_Controller {
         $this->load->model('Modelnya');
     }
     function index() {
-        $this->load->view('index');
+        $this->load->view('index.php');
     }
     function create() {
         $data = array(
@@ -19,7 +19,7 @@ class Home extends CI_Controller {
         'komentar' => $this->input->post('komentar')
         );
         $this->Modelnya->addData($data);
-        $this->index();
+        $this->load->view('index');
     }
     function readData() {
         $data = $this->Modelnya->getData();
@@ -30,4 +30,12 @@ class Home extends CI_Controller {
     $this->Modelnya->delete_item($delete);
     $this->readData();
     }
+    function download(){
+    $filename = 'laporan.xls';
+      header('Content-Type:   application/ms-excel');
+      header('Content-Disposition: attachment; filename=' .$filename);
+      $data['users'] = $this->modelnya->getData()->result();
+        $this->load->view('view',$data);
+
+  }
 }
