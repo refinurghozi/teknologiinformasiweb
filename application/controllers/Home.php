@@ -31,11 +31,12 @@ class Home extends CI_Controller {
     $this->readData();
     }
     function download(){
-    $filename = 'laporan.xls';
+        $data = $this->load->view('tabel');
+       // $data['users'] = $this->modelnya->getData()->result();
       header('Content-Type:   application/ms-excel');
-      header('Content-Disposition: attachment; filename=' .$filename);
-      $data['users'] = $this->modelnya->getData()->result();
-        $this->load->view('view',$data);
+      header('Content-Disposition: attachment; filename=abx.xls');
+      
+        echo $data;
 
   }
 }

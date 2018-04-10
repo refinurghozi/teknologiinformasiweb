@@ -28,7 +28,6 @@
         </form>
     <a href="<?= base_url() ?>index.php"><button>Back</button></a>
     <p align="center"><a href="<?php echo base_url('Home/download'); ?>">Unduh Laporan</a></p>
-        
      <a href="<?= base_url().'chart' ?>"><button>statistik</button></a>   
         
         
